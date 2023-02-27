@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: welding
+    password: welding
+    url: jdbc:mysql://localhost:3306/welding
+    
+    
+logging:
+  level:
+    root: warn
+    '[com.weldingco]': debug
+   
